@@ -4,11 +4,11 @@ class MyComponent extends React.Component {
     this.state = {
       visibility: false
     };
-    // change code below this line
+    
     this.toggleVisibility = this.toggleVisibility.bind(this);
 
   }
-  // change code below this line
+
   toggleVisibility () {
     this.setState(state => {
       if (state.visibility === true){
