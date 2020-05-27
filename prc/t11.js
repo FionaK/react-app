@@ -20,22 +20,22 @@ class MyForm extends React.Component {
       submit: this.state.input
     });
 
-    // change code above this line
   }
   render() {
     return (
       <div>
         <form onSubmit={this.handleSubmit}>
           { /* change code below this line */ }
-          <input value = {this.state.input} onChange = {this.handleChange}/>
+          <input 
+          value = {this.state.input} 
+          onChange = {this.handleChange}/>
 
-          { /* change code above this line */ }
+         
           <button type='submit'>Submit!</button>
         </form>
-        { /* change code below this line */ }
+   
         <h1>{this.state.submit}</h1>
 
-        { /* change code above this line */ }
       </div>
     );
   }
