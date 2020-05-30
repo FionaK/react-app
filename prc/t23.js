@@ -12,7 +12,6 @@ class CheckUserAge extends React.Component {
       userAge: ''
     }
 
-    // change code above this line
     this.submit = this.submit.bind(this);
     this.handleChange = this.handleChange.bind(this);
   }
